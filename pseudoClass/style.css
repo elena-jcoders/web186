@@ -1,0 +1,21 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color:aquamarine;
+}
+a:hover{
+    color:purple;
+}
+p::first-line{
+    background-color: red;
+    color:aqua;
+}
+p::first-letter{
+    background-color: pink;
+}
+.description::before{
+    content: "˗ˏˋ ꒰ ♡ ꒱ ˎˊ˗";
+    background-color: blue;
+    color:white;
+}

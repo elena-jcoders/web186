@@ -1,0 +1,29 @@
+img{
+    opacity: 0.3;
+    cursor: pointer;
+}
+img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.dropdown{
+    display: inline-block;
+}
+.drop-btn{
+    background-color: #333333;
+    color:white;
+    /* display: inline-block; */
+    padding: 16px;
+}
+.drop-content a{
+    display: block;
+    text-decoration: none;
+}
+.drop-content{
+    background-color: #f9f9f9;
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
